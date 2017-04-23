@@ -1,4 +1,6 @@
+# -*- coding: utf-8 -*-
+
 from django.http import HttpResponse 
 
 def index(request):
-    return HttpResponse("Poblyadushki")
+    return HttpResponse("<h1>Студия дизайна и полиграфии Denira</h1>")
